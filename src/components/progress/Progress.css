@@ -1,0 +1,39 @@
+.card-votes__progress-blue {
+  background: rgba(60, 187, 180, 0.6);
+  width: 50%;
+  text-align: left;
+}
+.card-votes__progress-blue img {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.card-votes__progress-votes {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0;
+  background-color: black;
+}
+
+.card-votes__progress-yellow,
+.card-votes__progress-blue {
+  font-size: 18px;
+  color: var(--color-white);
+  font-weight: 400;
+  display: inline-block;
+}
+.card-votes__progress-yellow img {
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.card-votes__progress-yellow {
+  background: rgba(249, 173, 29, 0.6);
+  width: 50%;
+  text-align: right;
+}
+
+.card-votes__percentage {
+  padding: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+}

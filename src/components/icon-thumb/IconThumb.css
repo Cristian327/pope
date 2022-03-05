@@ -1,0 +1,22 @@
+.input-like {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  background: rgba(var(--color-green-positive), 0.8)
+    url("../../../public/assets/img/like.png") no-repeat center;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.input-dislike {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  background: rgba(var(--color-yellow-negative), 0.8)
+    url("../../../public/assets/img/dislike.png") no-repeat center;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 12px;
+  cursor: pointer;
+}
